@@ -1,0 +1,100 @@
+  163  remove "origin"
+  164  open config
+  165  open config
+  166  open config
+  167  rm .git
+  168  rm -r .git
+  169  cd
+  170  ls
+  171  cd AndroidStudioProjects/
+  172  ls
+  173  cd MyFirstMobileApp/
+  174  ls
+  175  ls -al
+  176  rm -r .git
+  177  ls -al
+  178  git commit -m
+  179  cd
+  180  ls
+  181  cd git
+  182  ls
+  183  ls -al
+  184  git remote add origin https://github.com/verakalashnikova/my-mobile-app-samplepwd
+  185  git remote -v
+  186  git remote remove
+  187  git remote remove origin
+  188  git remote -v
+  189  git remote add first https://github.com/verakalashnikova/my-mobile-app-sample
+  190  git remote -v
+  191  git remote -v
+  192  git branch
+  193  git push first master
+  194  git status
+  195  git pull first
+  196* git pull first m
+  197  git push first master
+  198  git push first master
+  199  git pull --rebase
+  200  git pull fist --rebase
+  201  git pull --rebase first
+  202  git checkout master
+  203  git status
+  204  git pull origin master
+  205  git fetch first
+  206  git status
+  207  git push first master
+  208  git push first master
+  209  git pull first master
+  210  git status
+  211  git push first master
+  212  pwd
+  213  cd ~/AndroidStudioProjects/
+  214  ls -al
+  215  cd MyFirstMobileApp/
+  216  ls -al
+  217  git remote add origin https://github.com/verakalashnikova/my-mobile-app-sample
+  218  ls -al
+  219  git status
+  220  rm -R .git
+  221  rm -fr .git
+  222  ls -al
+  223  rm -fr .gitignore 
+  224  ls -al
+  225  git init
+  226  git status
+  227  git remote add origin https://github.com/verakalashnikova/my-mobile-app-sample
+  228  git pull first master
+  229  git pull origin master
+  230  git push origin
+  231  git push origin master
+  232  ls
+  233  ls -al
+  234  rm -fr .gitignore 
+  235  rm -fr .git
+  236  cd ..
+  237  git init
+  238  git add MyFirstMobileApp/
+  239  git status
+  240  pwd
+  241  cd MyFirstMobileApp/
+  242  ls
+  243  cd app/
+  244  rm -fr .git
+  245  rm -fr .gitignore 
+  246  cd ../..
+  247  pwd
+  248  ls -a
+  249  git add *
+  250  git status
+  251  git commit -m 'initial commit'
+  252  git push origin master
+  253  git remote add origin https://github.com/verakalashnikova/my-mobile-app-sample
+  254  git push origin master
+  255  git pull origin
+  256  git pull origin master
+  257  vim
+  258  git push origin master
+  259  history 
+  260  history | less 100
+  261  history > less 100
+  262  history > tail 100
